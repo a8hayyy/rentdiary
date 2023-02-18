@@ -1,0 +1,51 @@
+.addbuilding-main{
+    z-index: 10;
+    width: 18rem;
+    height: 14rem;
+    border-radius: 5px;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(0, -50%);
+    background-color: var(--white);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.addbuilding-main .fa-xmark{
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    color: red;
+}
+
+.addbuilding-main .fa-square-check{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    color: green;
+}
+
+.addbuilding-main-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.addbuilding-field{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+@media screen and (max-width:950px) {
+    .popup-content{
+        width: 24vw;
+        font-size: 1rem;
+    }
+}

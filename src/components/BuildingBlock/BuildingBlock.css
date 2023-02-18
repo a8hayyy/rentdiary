@@ -1,0 +1,21 @@
+.buildingblock-main{
+    width: 80%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+    border-radius: 5px;
+    transition: all ease-in 0.2s;
+    cursor: pointer;
+    color: var(--white);
+    background-color: var(--royal);
+    text-decoration: none;
+}
+
+.buildingblock-main:hover{
+    transform: scale(1.1);
+}
+
+
+

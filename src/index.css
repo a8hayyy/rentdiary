@@ -1,0 +1,12 @@
+:root{
+    --white: #f8f3f2;
+    --royal: #051d2d;
+    --sky: #2b435368;
+    --yellow: #fa991c;
+}
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+

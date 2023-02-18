@@ -1,0 +1,22 @@
+.homemainsection-main{
+    width: 100%;
+    flex-grow: 5;
+    background-color: brown;
+}
+
+.homemainsection-overlay{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: var(--sky);
+}
+
+@media screen and (max-width: 460px) {
+    .homemainsection-main{
+        width: 100vw;
+    }
+
+    .homemainsection-hide{
+        display: none;
+    }
+}
