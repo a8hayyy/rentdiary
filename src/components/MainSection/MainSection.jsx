@@ -9,7 +9,11 @@ function MainSection({
 }) {
     return(
         <div className='mainsection-main'>
-            <h1>Building Name: {id}</h1>
+            <div className="mainsection-top">
+                <h1>Building Name: {id}</h1>
+                <i class="fa-solid fa-gear fa-2x"></i>
+            </div>
+            <div className="mainsecgtion-floor-container">
             <Floor
                 number='2'
                 rooms='7'
@@ -26,6 +30,7 @@ function MainSection({
                 number='Basement'
                 rooms='5'
             />
+            </div>
         </div>
     );
 }

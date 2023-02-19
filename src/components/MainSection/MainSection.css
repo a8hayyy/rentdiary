@@ -2,9 +2,21 @@
     flex-grow: 5;
     width: 100%;
     /* background-color: antiquewhite; */
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
-.mainsection-main h1{
+
+.mainsection-top{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* align-items: center; */
+}
+
+.mainsection-top h1{
     width: 100%;
 }
 

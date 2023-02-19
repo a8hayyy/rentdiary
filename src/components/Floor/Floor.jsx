@@ -9,7 +9,7 @@ function Floor({
     return(
         <div className='floor-main'>            
             <div className='floor-number'>
-                <p>{number}{(number==='Basement') ? '' : 'floor'}</p>
+                <p>{number} {(number==='Basement') ? '' : 'floor'}</p>
             </div>
             <div className='floor-room-container'>
             <Room 
